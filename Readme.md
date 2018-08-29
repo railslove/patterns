@@ -4,8 +4,11 @@ A collection of patterns that is often use and should not be rewritten multiple
 times a year by multiple people.
 
 ## Contents
+1. [Purpose](#porpose)
+2. [Adding new patterns](#adding-new-patterns)
+3. [Improving existing patterns](#improving-existing-patterns)
 
-## Porpose
+### Porpose
 
 This repository aims to collect generic patterns that are often used over many
 different projects, but are generic enough that they do not need to be rewritten
@@ -22,7 +25,7 @@ independently of the project.
 Even though this starts as a library for CSS patterns, it should not be limited
 to only css.
 
-## Adding new patterns
+### Adding new patterns
 
 New patterns should always be added through a Pull Request, so they can be
 reviewd and improved by multiple people. For now, we have directories for
@@ -32,7 +35,7 @@ A pattern should life inside a distinct markdown file. It should explain what
 the patterns does and of course containt the source code to implement that
 pattern.
 
-## Improving existing patterns
+### Improving existing patterns
 
 An existing pattern should never be changed directly. Always open a Pull Request
 to create a discussion regarding the changes to the pattern.
