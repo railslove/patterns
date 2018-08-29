@@ -8,6 +8,9 @@ times a year by multiple people.
 2. [Adding new patterns](#adding-new-patterns)
 3. [Improving existing patterns](#improving-existing-patterns)
 
+## Areas
+* [CSS](https://github.com/railslove/patterns/tree/master/css)
+
 ### Porpose
 
 This repository aims to collect generic patterns that are often used over many
