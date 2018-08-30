@@ -7,7 +7,7 @@ https://cobwwweb.com/render-inline-svg-rails-middleman):
 
 ```ruby
   module ApplicationHelper
-    def svg(name)
+    def inline_svg(name)
       file_path = "#{Rails.root}/app/assets/images/#{name}.svg"
       return File.read(file_path).html_safe if File.exists?(file_path)
       "[svg '#{name}' not found]"
@@ -18,5 +18,5 @@ https://cobwwweb.com/render-inline-svg-rails-middleman):
 In your views, you then can simply call
 
 ```haml
-  .aIcon= svg('icon_close')
+  .aIcon= inline_svg('icon_close')
 ```
