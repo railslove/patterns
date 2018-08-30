@@ -10,6 +10,8 @@ times a year by multiple people.
 
 ## Areas
 * [CSS](https://github.com/railslove/patterns/tree/master/css)
+* [Ruby on
+  Rails](https://github.com/railslove/patterns/tree/master/ruby_on_rails)
 
 ### Porpose
 
