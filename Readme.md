@@ -32,8 +32,8 @@ to only css.
 
 ### Adding new patterns
 
-New patterns should always be added through a Pull Request, so they can be
-reviewd and improved by multiple people. For now, we have directories for
+**New patterns should always be added through a Pull Request**, so they can be
+reviewed and improved by multiple people. For now, we have directories for
 different languages, which themselves have a `Readme` listing the contents.
 
 A pattern should life inside a distinct markdown file. It should explain what
